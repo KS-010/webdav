@@ -1,7 +1,7 @@
 FROM alpine:3.8
 LABEL maintainer="Stille <stille@ioiox.com>"
 
-ENV VERSION 4.1.0
+ENV VERSION 4.2.0
 
 WORKDIR /
 
