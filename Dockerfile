@@ -17,6 +17,6 @@ RUN set -x && \
 	tar xvf linux-${ARCH}-webdav.tar.gz && \
 	rm -rf *.tar.gz
 
-COPY config.yml /
+COPY config.yml start.sh /
 
-CMD /webdav -c /config.yml
+CMD sh start.sh
